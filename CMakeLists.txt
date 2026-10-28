@@ -7,8 +7,8 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# find_package(turtlebot3_gazebo REQUIRED)
-# find_package(ros_gz_sim REQUIRED)
+find_package(turtlebot3_gazebo REQUIRED)
+find_package(turtlebot3_simulations REQUIRED)
 
 # folders to install
 install(
